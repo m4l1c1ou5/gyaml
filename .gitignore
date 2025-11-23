@@ -1,0 +1,26 @@
+# Benchmark results
+results/*.txt
+results/*.md
+*.txt
+!go.sum
+
+# Profiling files
+*.prof
+*.test
+
+# OS files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Go build artifacts
+*.out
+
+# vendor directory
+vendor
